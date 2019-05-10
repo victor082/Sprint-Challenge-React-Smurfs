@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './smurfs.css';
+import { Link } from 'react-router-dom';
 
 class SmurfForm extends Component {
   constructor(props) {
@@ -49,18 +50,22 @@ class SmurfForm extends Component {
             value={this.state.name}
             name="name"
           />
+          <div className="baseline" />
           <input
             onChange={this.handleInputChange}
             placeholder="age"
             value={this.state.age}
             name="age"
           />
+          <div className="baseline" />
           <input
             onChange={this.handleInputChange}
             placeholder="height"
             value={this.state.height}
             name="height"
           />
+          <div className="baseline" />
+          <br></br>
           <button type="submit" onClick={ this.refreshPage }>Add to the village</button>
         </form>
       </div>

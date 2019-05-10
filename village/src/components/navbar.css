@@ -1,0 +1,21 @@
+header {
+    opacity: .9;
+    border-bottom: 2px solid rgb(96, 187, 240);
+}
+
+header h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgb(77, 144, 199);
+    font-size: 3rem;
+}
+
+header a {
+    color: rgb(33, 126, 226);
+    text-decoration: none;
+    margin: 5px 2rem;
+}
+
+header a:hover {
+    color: rgb(159, 200, 250);
+}
