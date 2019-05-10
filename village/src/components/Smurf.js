@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './smurfs.css';
 const Smurf = props => {
   return (
     <div className="Smurf">

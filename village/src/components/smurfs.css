@@ -1,0 +1,11 @@
+
+.Smurfs ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Smurf {
+    width: 80%;
+    border: 1px solid black;
+}
