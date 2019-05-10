@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './smurfs.css';
+
 class SmurfForm extends Component {
   constructor(props) {
     super(props);
@@ -34,6 +35,9 @@ class SmurfForm extends Component {
       }
     });
   }
+ refreshPage = () => { 
+    window.location.reload(); 
+}
 
   render() {
     return (
@@ -57,7 +61,7 @@ class SmurfForm extends Component {
             value={this.state.height}
             name="height"
           />
-          <button type="submit">Add to the village</button>
+          <button type="submit" onClick={ this.refreshPage }>Add to the village</button>
         </form>
       </div>
     );
